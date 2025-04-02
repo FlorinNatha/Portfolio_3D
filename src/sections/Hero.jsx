@@ -10,6 +10,7 @@ import ReactLogo from '../components/ReactLogo'
 import Cube from '../components/Cube'
 import Rings from '../components/Rings'
 import HeroCamera from '../components/HeroCamera'
+import Button from '../components/Button'
 
 const Hero = () => {
   const isSmall = useMediaQuery({maxWidth: 440});
@@ -32,7 +33,7 @@ const Hero = () => {
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
-                <HeroCamera>
+                <HeroCamera isMobile={isMobile}>
                   <HackerRoom 
                     position={sizes.deskPosition}
                     scale={sizes.deskScale}
@@ -52,6 +53,12 @@ const Hero = () => {
            
            </Suspense> 
         </Canvas>
+      </div>
+
+      <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
+        <a href='#contact' className='w-fit'>
+          <Button/>
+        </a>
       </div>
 
 
