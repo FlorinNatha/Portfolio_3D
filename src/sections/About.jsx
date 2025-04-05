@@ -1,3 +1,6 @@
+import Globe from "react-globe.gl"
+import Button from '../components/Button.jsx';
+
 const About = () => {
   return (
     <section className="c-space my-20">
@@ -26,10 +29,26 @@ const About = () => {
           <div className="col-span-1 xl:row-span-4">
             <div className="grid-container">
               <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
-                
+                <Globe 
+                  height={326}
+                  width={326}
+                  backgroundColor="rgba(0,0,0,0)"
+                  backgroundImageOpacity={0.5}
+                  showAtmosphere
+                  showGraticules
+                  globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
+                  bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+                />
+              </div>
+              <div>
+                <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
+                <p className="grid-subtext">I'm based in Colombo, Sri Lanka , with remote work available.</p>
+                <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
               </div>
             </div>
           </div>
+
+
 
         </div>
     </section>

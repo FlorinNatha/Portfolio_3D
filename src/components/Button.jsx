@@ -8,6 +8,7 @@ const Button = ({ name, isBeam = false, containerClass}) => {
         </span>
         
       )}
+      {name}
     </button>
   )
 }
