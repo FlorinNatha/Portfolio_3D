@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { navLinks } from '../constants';
 import 'boxicons/css/boxicons.min.css';
-//import logo from '../../public/assets/logo';
+import logo from '../assets/image.png'
 
 const Sidebar = () => {
   const location = useLocation();
@@ -16,7 +16,7 @@ const Sidebar = () => {
     <div className="w-20 h-screen fixed top-0 left-0 bg-black flex flex-col items-center py-5 text-white">
       <div className="mb-8">
         <Link to="/">
-        {/*<img src={logo} alt="Logo" className="w-12 h-12 rounded-full hover:scale-110 transition duration-300" />*/}
+        <img src={logo} alt="Logo" className="w-12 h-12 rounded-full hover:scale-110 transition duration-300" />
         </Link>
       </div>
 
