@@ -1,4 +1,4 @@
-export const navLinks = [
+/*export const navLinks = [
     {
       id: 1,
       name: 'Home',
@@ -19,6 +19,12 @@ export const navLinks = [
       name: 'Contact',
       href: '#contact',
     },
+  ];*/
+  export const navLinks = [
+    { id: 1, name: "Home", href: "/", icon: "bx-home" },
+    { id: 2, name: "About", href: "/about", icon: "bx-user" },
+    { id: 3, name: "Projects", href: "/projects", icon: "bxs-briefcase" },
+    { id: 4, name: "Client", href: "/client", icon: "bxs-contact" },
   ];
   
   export const clientReviews = [

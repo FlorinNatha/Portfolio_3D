@@ -1,19 +1,29 @@
-import React from 'react'
-import Navbar from './sections/Navbar'
-import Hero from './sections/Hero'
-import About from './sections/About'
-import Projects from './sections/Projects'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Client from './sections/Client';
 
 const App = () => {
   return (
-    <main className='max-w-7xl mx-auto'>
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-    </main>
-  )
-}
+    <Router>
+      <div className="flex">
+        <Sidebar />
 
-export default App
+        <main className="ml-20 w-full p-6"> {/* Adjust ml-20 if your sidebar width changes */}
+          <Routes>
+            <Route path="/" element={<Hero />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/client" element={<Client />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
+  );
+};
 
+export default App;
