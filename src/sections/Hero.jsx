@@ -11,6 +11,9 @@ import Cube from '../components/Cube'
 import Rings from '../components/Rings'
 import HeroCamera from '../components/HeroCamera'
 import Button from '../components/Button'
+import { motion } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter";
+import Particles from "../components/ParticleDesign";
 
 const Hero = () => {
   const isSmall = useMediaQuery({maxWidth: 440});
@@ -21,11 +24,36 @@ const Hero = () => {
 
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
+      <Particles />
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           Hi, I am Nathasha Florin <span className="waving-hand">👋</span>
         </p>
-        <p className="hero_tag text-gray_gradient">Full Stack Software Developer</p>
+        {/*<p className="hero_tag text-gray_gradient">Full Stack Software Developer</p>*/}
+        <motion.main
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -50 }}
+          transition={{ duration: 0.5 }}
+          className="relative z-10 w-full h-auto flex flex-col justify-center items-center"
+        >
+          <div className="mt-1 w-full flex flex-col justify-center items-center">
+            <h1 className="text-2xl md:text-6xl w-full text-center hero_tag text-gray_gradient">
+              <span>
+                <Typewriter
+                  words={["Full Stack Software Developer"]}
+                  loop={0}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
+            </h1>
+            
+          </div>
+      </motion.main>
       </div>
 
       <div className='w-full h-full absolute inset-0'>

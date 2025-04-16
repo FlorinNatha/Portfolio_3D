@@ -102,11 +102,11 @@ function CertificationsPage() {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -50 }}
         transition={{ duration: 0.5 }}
-        className="w-full h-auto flex flex-col justify-center items-center"
+        className="relative z-10 w-full h-auto flex flex-col justify-center items-center"
       >
         <div className="mt-12 w-full flex flex-col justify-center items-center">
-          <h1 className="text-1xl md:text-2xl text-gold w-full text-center">
-            <b>
+          <h1 className="text-1xl md:text-3xl font-bold text-yellow-400 w-full text-center">
+            <span>
               <Typewriter
                 words={["Licenses and Certifications"]}
                 loop={0}
@@ -116,7 +116,7 @@ function CertificationsPage() {
                 deleteSpeed={50}
                 delaySpeed={1000}
               />
-            </b>
+            </span>
           </h1>
           <p className="text-white text-sm w-3/4 text-center mt-4">
             I have completed several courses and certifications to enhance my

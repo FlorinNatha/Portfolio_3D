@@ -10,7 +10,7 @@ const ParticleDesign = () => {
   const particlesLoaded = useCallback(async (container) => {}, []);
 
   return (
-    <div className="z-18" id="partclesContainor">
+    <div className="pointer-events-none fixed top-0 left-0 w-full h-full -z-10" id="particlesContainer">
       <Particles
         id="tsparticles"
         init={particlesInit}

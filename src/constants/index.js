@@ -32,6 +32,7 @@ import CertificationsPage from "../sections/Certifications";
     { id: 4, name: "Client", href: "/client", icon: "bx-group" },
     { id: 5, name: "Contac", href: "/contact", icon: "bx-envelope"},
     { id: 6, name: "Certifications", href: "/certifications", icon: "bx-certification"},
+    { id: 7, name: "Skills", href: "/skills", icon: "bxs-hand"},
   ];
   
   export const clientReviews = [
