@@ -5,7 +5,7 @@ import Particles from "../components/ParticleDesign";
 
 // Local image imports
 
-import CourseraAI from "../../public/assets/certificateLogo/courseraAI.png";
+import CourseraAI from "../../public/assets/courseraAI.png";
 import CourseraBackendIntro from "../../public/assets/certificateLogo/courseraBackendIntro.png";
 import CourseraFrontEndIntro from "../../public/assets/certificateLogo/courseraFrontEndIntro.png";
 import Hackerrank from "../../public/assets/certificateLogo/hackerrank_css.png";
@@ -44,7 +44,7 @@ const certifications = [
   },
  
   {
-    name: "CSS (Basic) Certificate",
+    name: "DeepLearning.AI",
     logo: CourseraAI,
     link: "https://www.hackerrank.com/certificates/e446f206ff25",
   },
