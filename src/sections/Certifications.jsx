@@ -43,11 +43,11 @@ const certifications = [
     link: "https://www.hackerrank.com/certificates/e446f206ff25",
   },
  
-  {
+  /*{
     name: "DeepLearning.AI",
     logo: CourseraAI,
     link: "https://www.hackerrank.com/certificates/e446f206ff25",
-  },
+  },*/
   
   {
     name: "Skills Boost Arcade Trivia March 2025 Week 2",
