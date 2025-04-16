@@ -21,7 +21,7 @@ const About = () => {
 
           <div className="col-span-1 xl:row-span-3">
             <div className="grid-container">
-              <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+              <img src="/assets/image.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain rounded-full" />
               <div>
                 <p className="grid-headtext">🚀Hi, I'm Nathasha Florin,</p>
                 <p className="grid-subtext">a passionate Software Engineer currently studying at the University of Sri Jayewardenepura, Faculty of Computing. I thrive on exploring new technologies, enhancing my skills in software development, algorithms, data structures, and software design. My goal is to build efficient, scalable, and impactful software solutions.</p>
