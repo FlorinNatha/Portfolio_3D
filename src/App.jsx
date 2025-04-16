@@ -6,6 +6,8 @@ import Hero from './sections/Hero';
 import About from './sections/About';
 import Projects from './sections/Projects';
 import Client from './sections/Client';
+import Contact from './sections/Contact';
+import Certifications from './sections/Certifications';
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/client" element={<Client />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/certifications" element={<Certifications />} />
           </Routes>
         </main>
       </div>

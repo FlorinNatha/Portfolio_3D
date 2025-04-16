@@ -1,3 +1,8 @@
+import { href } from "react-router-dom";
+import { contain } from "three/src/extras/TextureUtils.js";
+import Contact from "../sections/Contact";
+import CertificationsPage from "../sections/Certifications";
+
 /*export const navLinks = [
     {
       id: 1,
@@ -24,7 +29,9 @@
     { id: 1, name: "Home", href: "/", icon: "bx-home" },
     { id: 2, name: "About", href: "/about", icon: "bx-user" },
     { id: 3, name: "Projects", href: "/projects", icon: "bxs-briefcase" },
-    { id: 4, name: "Client", href: "/client", icon: "bxs-contact" },
+    { id: 4, name: "Client", href: "/client", icon: "bx-group" },
+    { id: 5, name: "Contac", href: "/contact", icon: "bx-envelope"},
+    { id: 6, name: "Certifications", href: "/certifications", icon: "bx-certification"},
   ];
   
   export const clientReviews = [
