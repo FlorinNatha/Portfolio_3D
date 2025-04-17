@@ -5,18 +5,18 @@ import Particles from "../components/ParticleDesign";
 
 // Local image imports
 
-import CourseraAI from "public/assets/courseraAI.png";
-import CourseraBackendIntro from "../../public/assets/certificateLogo/courseraBackendIntro.png";
-import CourseraFrontEndIntro from "../../public/assets/certificateLogo/courseraFrontEndIntro.png";
-import Hackerrank from "../../public/assets/certificateLogo/hackerrank_css.png";
-import javascript from "../../public/assets/certificateLogo/javascript_basic.png";
-import googlecloud1 from "../../public/assets/certificateLogo/googleCloud1.png";
-import googlecloud2 from "../../public/assets/certificateLogo/googleCloud2.png";
-import googlecloud3 from "../../public/assets/certificateLogo/googleCloud3.png";
-import googlecloud4 from "../../public/assets/certificateLogo/googlecloud4.png";
-import googlecloud5 from "../../public/assets/certificateLogo/googleCloud5.png";
-import googlecloud6 from "../../public/assets/certificateLogo/googlecloud6.png";
-import googlecloud7 from "../../public/assets/certificateLogo/googleCloud7.png";
+import CourseraAI from "../assets/certificateLogo/CourseraAI.png";
+import CourseraBackendIntro from "../assets/certificateLogo/courseraBackendIntro.png";
+import CourseraFrontEndIntro from "../assets/certificateLogo/courseraFrontEndIntro.png";
+import Hackerrank from "../assets/certificateLogo/hackerrank_css.png";
+import javascript from "../assets/certificateLogo/javascript_basic.png";
+import googlecloud1 from "../assets/certificateLogo/googleCloud1.png";
+import googlecloud2 from "../assets/certificateLogo/googleCloud2.png";
+import googlecloud3 from "../assets/certificateLogo/googleCloud3.png";
+import googlecloud4 from "../assets/certificateLogo/googlecloud4.png";
+import googlecloud5 from "../assets/certificateLogo/googleCloud5.png";
+import googlecloud6 from "../assets/certificateLogo/googlecloud6.png";
+import googlecloud7 from "../assets/certificateLogo/googleCloud7.png";
 
 const certifications = [
   
