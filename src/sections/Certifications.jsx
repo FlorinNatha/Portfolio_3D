@@ -6,7 +6,7 @@ import Particles from "../components/ParticleDesign";
 // Local image imports
 
 import CourseraAI from "../assets/certificateLogo/CourseraAI.png";
-import CourseraBackendIntro from "../assets/certificateLogo/courseraBackendIntro.png";
+import CourseraBackendIntro from "../assets/certificateLogo/CourseraBackendIntro.png";
 import CourseraFrontEndIntro from "../assets/certificateLogo/courseraFrontEndIntro.png";
 import Hackerrank from "../assets/certificateLogo/hackerrank_css.png";
 import javascript from "../assets/certificateLogo/javascript_basic.png";
