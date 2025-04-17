@@ -5,7 +5,7 @@ import Particles from "../components/ParticleDesign";
 
 // Local image imports
 
-import CourseraAI from "../../public/assets/courseraAI.png";
+import CourseraAI from "public/assets/courseraAI.png";
 import CourseraBackendIntro from "../../public/assets/certificateLogo/courseraBackendIntro.png";
 import CourseraFrontEndIntro from "../../public/assets/certificateLogo/courseraFrontEndIntro.png";
 import Hackerrank from "../../public/assets/certificateLogo/hackerrank_css.png";
@@ -43,11 +43,11 @@ const certifications = [
     link: "https://www.hackerrank.com/certificates/e446f206ff25",
   },
  
-  /*{
+  {
     name: "DeepLearning.AI",
     logo: CourseraAI,
     link: "https://www.hackerrank.com/certificates/e446f206ff25",
-  },*/
+  },
   
   {
     name: "Skills Boost Arcade Trivia March 2025 Week 2",
