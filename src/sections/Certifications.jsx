@@ -16,8 +16,8 @@ import googlecloud4 from "../assets/certificateLogo/googlecloud4.png";
 import googlecloud5 from "../assets/certificateLogo/googleCloud5.png";
 import googlecloud6 from "../assets/certificateLogo/googlecloud6.png";
 import googlecloud7 from "../assets/certificateLogo/googleCloud7.png";
-import IBMExpress from "../assets/certificateLogo/IBMExpress.png";
-import IBM1 from "../assets/certificateLogo/IBM1.png";
+import ibm1 from "../assets/certificateLogo/ibm1.png"
+import ibm2 from "../assets/certificateLogo/ibm2.png";
 
 const certifications = [
   
@@ -87,12 +87,12 @@ const certifications = [
   },
   {
     name: "IBM- Node and Express Essentials badge",
-    logo: IBMExpress,
+    logo: ibm2,
     link: "",
   },
   {
     name: "IBM - Developing Back-End Apps with Node.js and Express",
-    logo: IBM1,
+    logo: ibm1,
     link: " https://coursera.org/verify/1X9IKUKOS7JH ",
   },
   
