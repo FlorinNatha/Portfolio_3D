@@ -4,10 +4,9 @@ import { Typewriter } from "react-simple-typewriter";
 import Particles from "../components/ParticleDesign";
 
 // Local image imports
-
-import CourseraAI from "../assets/certificateLogo/CourseraAI.png";
-import CourseraBackendIntro from "../assets/certificateLogo/CourseraBackendIntro.png";
-import CourseraFrontEndIntro from "../assets/certificateLogo/courseraFrontEndIntro.png";
+import deep1 from "../assets/certificateLogo/deep1.png";
+import meta1 from "../assets/certificateLogo/meta1.png";
+import meta2 from "../assets/certificateLogo/meta2.png";
 import Hackerrank from "../assets/certificateLogo/hackerrank_css.png";
 import javascript from "../assets/certificateLogo/javascript_basic.png";
 import googlecloud1 from "../assets/certificateLogo/googleCloud1.png";
@@ -17,18 +16,20 @@ import googlecloud4 from "../assets/certificateLogo/googlecloud4.png";
 import googlecloud5 from "../assets/certificateLogo/googleCloud5.png";
 import googlecloud6 from "../assets/certificateLogo/googlecloud6.png";
 import googlecloud7 from "../assets/certificateLogo/googleCloud7.png";
+import IBMExpress from "../assets/certificateLogo/IBMExpress.png";
+import IBM1 from "../assets/certificateLogo/IBM1.png";
 
 const certifications = [
   
     {
         name: "Meta - Introduction to Back-End Development",
-        logo: CourseraBackendIntro,
+        logo: meta1,
         link: "https://www.coursera.org/account/accomplishments/verify/5UITENPA1X45",
       },
 
       {
         name: "Meta - Introduction to Front_End Development",
-        logo: CourseraFrontEndIntro,
+        logo: meta2,
         link: "https://www.coursera.org/account/accomplishments/verify/JQ8SPBP7CQJJ",
       },
   {
@@ -45,7 +46,7 @@ const certifications = [
  
   {
     name: "DeepLearning.AI",
-    logo: CourseraAI,
+    logo: deep1,
     link: "https://www.hackerrank.com/certificates/e446f206ff25",
   },
   
@@ -83,6 +84,16 @@ const certifications = [
     name: "The Arcade Trivia January 2025 Week 1",
     logo: googlecloud7,
     link: "https://www.cloudskillsboost.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/13700888",
+  },
+  {
+    name: "IBM- Node and Express Essentials badge",
+    logo: IBMExpress,
+    link: "",
+  },
+  {
+    name: "IBM - Developing Back-End Apps with Node.js and Express",
+    logo: IBM1,
+    link: " https://coursera.org/verify/1X9IKUKOS7JH ",
   },
   
 ];
