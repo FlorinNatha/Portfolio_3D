@@ -16,7 +16,7 @@ import googlecloud4 from "../assets/certificateLogo/googlecloud4.png";
 import googlecloud5 from "../assets/certificateLogo/googleCloud5.png";
 import googlecloud6 from "../assets/certificateLogo/googlecloud6.png";
 import googlecloud7 from "../assets/certificateLogo/googleCloud7.png";
-import ibm1 from "../assets/certificateLogo/ibm1.png"
+import ibm1 from "../assets/certificateLogo/ibm01.png"
 import ibm2 from "../assets/certificateLogo/ibm2.png";
 
 const certifications = [
