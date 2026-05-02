@@ -14,6 +14,7 @@ import Button from '../components/Button'
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
 import Particles from "../components/ParticleDesign";
+import ErrorBoundary from '../components/ErrorBoundary'
 
 const Hero = () => {
   const isSmall = useMediaQuery({maxWidth: 440});
@@ -62,15 +63,19 @@ const Hero = () => {
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
                 <HeroCamera isMobile={isMobile}>
-                  <HackerRoom 
-                    position={sizes.deskPosition}
-                    scale={sizes.deskScale}
-                    rotation={[0, -Math.PI, 0]}
-                  />
+                  <ErrorBoundary fallback={null}>
+                    <HackerRoom 
+                      position={sizes.deskPosition}
+                      scale={sizes.deskScale}
+                      rotation={[0, -Math.PI, 0]}
+                    />
+                  </ErrorBoundary>
                 </HeroCamera>
 
                   <group>
-                    <Target position={sizes.targetPosition} />
+                    <ErrorBoundary fallback={null}>
+                      <Target position={sizes.targetPosition} />
+                    </ErrorBoundary>
                     <ReactLogo position={sizes.reactLogoPosition}/>
                     <Cube position={sizes.cubePosition} />
                     <Rings position={sizes.ringPosition}/>
