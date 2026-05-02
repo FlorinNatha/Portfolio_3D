@@ -4,6 +4,7 @@ import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls } from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader";
 import DemoComputer from "../components/DemoComputer";
+import ErrorBoundary from "../components/ErrorBoundary";
 
 
 
@@ -77,7 +78,9 @@ const Projects = () => {
                 <Center>
                     <Suspense fallback={<CanvasLoader />}>
                         <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
-                            <DemoComputer texture={currentProject.texture} />
+                            <ErrorBoundary fallback={null}>
+                                <DemoComputer texture={currentProject.texture} />
+                            </ErrorBoundary>
                         </group>
                     </Suspense>
                 </Center>
