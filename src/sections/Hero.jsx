@@ -17,9 +17,9 @@ import Particles from "../components/ParticleDesign";
 import ErrorBoundary from '../components/ErrorBoundary'
 
 const Hero = () => {
-  const isSmall = useMediaQuery({maxWidth: 440});
-  const isMobile = useMediaQuery({maxWidth: 768});
-  const isTablet = useMediaQuery({minWidth: 768, maxWidth: 1024});
+  const isSmall = useMediaQuery({ maxWidth: 440 });
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet)
 
@@ -42,7 +42,7 @@ const Hero = () => {
             <h1 className="text-2xl md:text-6xl w-full text-center hero_tag text-gray_gradient">
               <span>
                 <Typewriter
-                  words={["Full Stack Software Developer"]}
+                  words={["Software Engineer | Full Stack & DevOps"]}
                   loop={0}
                   cursor
                   cursorStyle="|"
@@ -52,9 +52,9 @@ const Hero = () => {
                 />
               </span>
             </h1>
-            
+
           </div>
-      </motion.main>
+        </motion.main>
       </div>
 
       <div className='w-full h-full absolute inset-0'>
@@ -62,40 +62,40 @@ const Hero = () => {
         <Canvas className="w-full h-full">
           <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 20]} />
-                <HeroCamera isMobile={isMobile}>
-                  <ErrorBoundary fallback={null}>
-                    <HackerRoom 
-                      position={sizes.deskPosition}
-                      scale={sizes.deskScale}
-                      rotation={[0, -Math.PI, 0]}
-                    />
-                  </ErrorBoundary>
-                </HeroCamera>
+            <HeroCamera isMobile={isMobile}>
+              <ErrorBoundary fallback={null}>
+                <HackerRoom
+                  position={sizes.deskPosition}
+                  scale={sizes.deskScale}
+                  rotation={[0, -Math.PI, 0]}
+                />
+              </ErrorBoundary>
+            </HeroCamera>
 
-                  <group>
-                    <ErrorBoundary fallback={null}>
-                      <Target position={sizes.targetPosition} />
-                    </ErrorBoundary>
-                    <ReactLogo position={sizes.reactLogoPosition}/>
-                    <Cube position={sizes.cubePosition} />
-                    <Rings position={sizes.ringPosition}/>
-                  </group>
-                    
-                    <ambientLight intensity={1} />
-                    <directionalLight position={[10, 10, 10]} intensity={0.5} />
-           
-           </Suspense> 
+            <group>
+              <ErrorBoundary fallback={null}>
+                <Target position={sizes.targetPosition} />
+              </ErrorBoundary>
+              <ReactLogo position={sizes.reactLogoPosition} />
+              <Cube position={sizes.cubePosition} />
+              <Rings position={sizes.ringPosition} />
+            </group>
+
+            <ambientLight intensity={1} />
+            <directionalLight position={[10, 10, 10]} intensity={0.5} />
+
+          </Suspense>
         </Canvas>
       </div>
 
       <div className='absolute bottom-7 left-0 right-0 w-full z-10 c-space'>
         <a href='#about' className='w-fit'>
-          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
+          <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
         </a>
       </div>
 
 
-     
+
     </section>
   )
 }
