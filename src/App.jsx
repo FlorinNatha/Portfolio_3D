@@ -9,6 +9,7 @@ import Client from './sections/Client';
 import Contact from './sections/Contact';
 import Certifications from './sections/Certifications';
 import Skills from './sections/Skills';
+import Blog from './sections/Blog';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </main>
       </div>
