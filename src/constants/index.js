@@ -33,6 +33,34 @@ import CertificationsPage from "../sections/Certifications";
     { id: 5, name: "Contac", href: "/contact", icon: "bx-envelope"},
     { id: 6, name: "Certifications", href: "/certifications", icon: "bx-certification"},
     { id: 7, name: "Skills", href: "/skills", icon: "bxs-hand"},
+    { id: 8, name: "Blog", href: "/blog", icon: "bx-news"},
+  ];
+
+  export const blogPosts = [
+    {
+      id: 1,
+      title: 'Getting Started with 3D Web Development',
+      desc: 'Explore the world of Three.js and React Three Fiber to create immersive 3D experiences on the web.',
+      date: 'May 10, 2024',
+      image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=800',
+      link: 'https://medium.com/@nathasha-florin/getting-started-with-3d-web-development-12345',
+    },
+    {
+      id: 2,
+      title: 'Mastering Full Stack with MERN',
+      desc: 'A comprehensive guide to building scalable applications using MongoDB, Express, React, and Node.js.',
+      date: 'April 25, 2024',
+      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800',
+      link: 'https://medium.com/@nathasha-florin/mastering-full-stack-with-mern-67890',
+    },
+    {
+      id: 3,
+      title: 'The Future of DevOps in 2024',
+      desc: 'Understanding the shift towards Platform Engineering and AI-driven operations.',
+      date: 'March 15, 2024',
+      image: 'https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&q=80&w=800',
+      link: 'https://medium.com/@nathasha-florin/the-future-of-devops-in-2024-11223',
+    },
   ];
   
   export const clientReviews = [
