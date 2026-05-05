@@ -9,81 +9,160 @@ import meta1 from "../assets/certificateLogo/meta1.png";
 import meta2 from "../assets/certificateLogo/meta2.png";
 import Hackerrank from "../assets/certificateLogo/hackerrank_css.png";
 import javascript from "../assets/certificateLogo/javascript_basic.png";
-import googlecloud1 from "../assets/certificateLogo/googleCloud1.png";
-import googlecloud2 from "../assets/certificateLogo/googleCloud2.png";
-import googlecloud3 from "../assets/certificateLogo/googleCloud3.png";
-import googlecloud4 from "../assets/certificateLogo/googlecloud4.png";
-import googlecloud5 from "../assets/certificateLogo/googleCloud5.png";
-import googlecloud6 from "../assets/certificateLogo/googlecloud6.png";
-import googlecloud7 from "../assets/certificateLogo/googleCloud7.png";
+import google_cloud_1 from "../assets/certificateLogo/google_cloud_1.png";
+import google_cloud_2 from "../assets/certificateLogo/google_cloud_2.png";
+import google_cloud_3 from "../assets/certificateLogo/google_cloud_3.png";
+import google_cloud_4 from "../assets/certificateLogo/google_cloud_4.png";
+import google_cloud_5 from "../assets/certificateLogo/google_cloud_5.png";
+import google_cloud_6 from "../assets/certificateLogo/google_cloud_6.png";
+import google_cloud_7 from "../assets/certificateLogo/google_cloud_7.png";
+import google_cloud_8 from "../assets/certificateLogo/google_cloud_8.png";
+import google_cloud_9 from "../assets/certificateLogo/google_cloud_9.png";
+import google_cloud_10 from "../assets/certificateLogo/google_cloud_10.png";
+import google_cloud_11 from "../assets/certificateLogo/google_cloud_11.png";
+import google_cloud_12 from "../assets/certificateLogo/google_cloud_12.png";
+import google_cloud_13 from "../assets/certificateLogo/google_cloud_13.png";
+import google_cloud_14 from "../assets/certificateLogo/google_cloud_14.png";
+import google_cloud_15 from "../assets/certificateLogo/google_cloud_15.png";
+import google_cloud_16 from "../assets/certificateLogo/google_cloud_16.png";
+import google_cloud_17 from "../assets/certificateLogo/google_cloud_17.png";
+import google_cloud_18 from "../assets/certificateLogo/google_cloud_18.png";
+import google_cloud_19 from "../assets/certificateLogo/google_cloud_19.png";
+import google_cloud_20 from "../assets/certificateLogo/google_cloud_20.png";
+
 import ibm1 from "../assets/certificateLogo/ibm01.png"
 import ibm2 from "../assets/certificateLogo/ibm2.png";
 
 const certifications = [
-  
-    {
-        name: "Meta - Introduction to Back-End Development",
-        logo: meta1,
-        link: "https://www.coursera.org/account/accomplishments/verify/5UITENPA1X45",
-      },
 
-      {
-        name: "Meta - Introduction to Front_End Development",
-        logo: meta2,
-        link: "https://www.coursera.org/account/accomplishments/verify/JQ8SPBP7CQJJ",
-      },
+  {
+    name: "Meta - Introduction to Back-End Development",
+    logo: meta1,
+    link: "https://www.coursera.org/account/accomplishments/verify/5UITENPA1X45",
+  },
+
+  {
+    name: "Meta - Introduction to Front_End Development",
+    logo: meta2,
+    link: "https://www.coursera.org/account/accomplishments/verify/JQ8SPBP7CQJJ",
+  },
   {
     name: "Css (Basic) Certificate",
     logo: Hackerrank,
     link: "https://www.hackerrank.com/certificates/e446f206ff25",
   },
-  
+
   {
     name: "Javascript (Basic) Certificate",
     logo: javascript,
     link: "https://www.hackerrank.com/certificates/e446f206ff25",
   },
- 
+
   {
     name: "DeepLearning.AI",
     logo: deep1,
     link: "https://www.hackerrank.com/certificates/e446f206ff25",
   },
-  
+
+  {
+    name: "Level 1: Application and Network Infrastructure",
+    logo: google_cloud_1,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/16749197",
+  },
+  {
+    name: "Skills Boost Arcade Trivia June 2025 Week 3",
+    logo: google_cloud_2,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/16698828",
+  },
+  {
+    name: "Skills Boost Arcade Trivia June 2025 Week 4",
+    logo: google_cloud_3,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/16470214",
+  },
+  {
+    name: "Level 3: AI Readiness",
+    logo: google_cloud_4,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/16450877",
+  },
+  {
+    name: "Skills Boost Arcade Trivia June 2025 Week 2",
+    logo: google_cloud_5,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/16430293",
+  },
+  {
+    name: "Skills Boost Arcade Trivia June 2025 Week 1",
+    logo: google_cloud_6,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/16375641",
+  },
+  {
+    name: "Skills Boost Arcade Trivia May 2025 Week 4",
+    logo: google_cloud_7,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/16231302",
+  },
+  {
+    name: "Level 1: Data Modeling and Reporting",
+    logo: google_cloud_8,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/16224783",
+  },
+  {
+    name: "Skills Boost Arcade Trivia May 2025 Week 3",
+    logo: google_cloud_9,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/15917731",
+  },
+  {
+    name: "Skills Boost Arcade Trivia May 2025 Week 1",
+    logo: google_cloud_10,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/15745600",
+  },
+  {
+    name: "Skills Boost Arcade Trivia April 2025 Week 4",
+    logo: google_cloud_11,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/15496219",
+  },
+  {
+    name: "Skills Boost Arcade Trivia April 2025 Week 3",
+    logo: google_cloud_12,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/15376731",
+  },
+  {
+    name: "Skills Boost Arcade Trivia April 2025 Week 1",
+    logo: google_cloud_13,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/15146406",
+  },
   {
     name: "Skills Boost Arcade Trivia March 2025 Week 2",
-    logo: googlecloud1,
-    link: "https://www.cloudskillsboost.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14499227",
+    logo: google_cloud_14,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14499227",
   },
   {
     name: "Skills Boost Arcade Trivia March 2025 Week 3",
-    logo: googlecloud2,
-    link: "https://www.cloudskillsboost.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14488367",
+    logo: google_cloud_15,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14488367",
   },
   {
     name: "Skills Boost Arcade Trivia February 2025 Week 3",
-    logo: googlecloud3,
-    link: "https://www.cloudskillsboost.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14145678",
+    logo: google_cloud_16,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14145678",
   },
   {
     name: "Skills Boost Arcade Trivia February 2025 Week 2",
-    logo: googlecloud4,
-    link: "https://www.cloudskillsboost.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14139282",
+    logo: google_cloud_17,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14139282",
   },
   {
     name: "Skills Boost Arcade Trivia February 2025 Week 1",
-    logo: googlecloud5,
-    link: "https://www.cloudskillsboost.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14083108",
+    logo: google_cloud_18,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/14083108",
   },
   {
     name: "The Arcade Trivia January 2025 Week 2",
-    logo: googlecloud6,
-    link: "https://www.cloudskillsboost.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/13709926",
+    logo: google_cloud_19,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/13709926",
   },
   {
     name: "The Arcade Trivia January 2025 Week 1",
-    logo: googlecloud7,
-    link: "https://www.cloudskillsboost.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/13700888",
+    logo: google_cloud_20,
+    link: "https://www.skills.google/public_profiles/843edc3a-74d4-4442-b5c9-b784e63c6035/badges/13700888",
   },
   {
     name: "IBM- Node and Express Essentials badge",
@@ -95,7 +174,7 @@ const certifications = [
     logo: ibm1,
     link: " https://coursera.org/verify/1X9IKUKOS7JH ",
   },
-  
+
 ];
 
 const tileVariants = {
@@ -107,7 +186,7 @@ function CertificationsPage() {
   return (
     <div className="w-full h-auto md:h-screen bg-gradient-to-br from-black to-darkMaroon text-gold flex flex-col items-center py-4">
       <Particles />
-  
+
       <motion.main
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
