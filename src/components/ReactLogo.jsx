@@ -1,4 +1,4 @@
-import {Float, useGLTF } from '@react-three/drei'
+import { Float, useGLTF } from '@react-three/drei'
 
 const ReactLogo = (props) => {
   const { nodes, materials } = useGLTF('/models/react.glb')

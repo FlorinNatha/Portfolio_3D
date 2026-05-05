@@ -62,7 +62,7 @@ body {
 
   /* about section */
   .grid-container {
-    @apply w-full h-full border border-black-300 bg-black-200 rounded-lg sm:p-7 p-4 flex flex-col gap-5;
+    @apply w-full h-full border border-black-300 bg-black-200/50 backdrop-blur-md rounded-3xl sm:p-7 p-4 flex flex-col gap-5 transition-all duration-300 hover:border-yellow-400/30 hover:shadow-2xl hover:shadow-yellow-400/5;
   }
 
   .grid-headtext {
