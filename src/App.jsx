@@ -10,6 +10,7 @@ import Contact from './sections/Contact';
 import Certifications from './sections/Certifications';
 import Skills from './sections/Skills';
 import Blog from './sections/Blog';
+import Achievements from './sections/Achievements';
 
 const App = () => {
   return (
@@ -22,11 +23,12 @@ const App = () => {
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/client" element={<Client />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/certifications" element={<Certifications />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/client" element={<Client />} />
+            <Route path="/achievements" element={<Achievements />} />
           </Routes>
         </main>
       </div>
