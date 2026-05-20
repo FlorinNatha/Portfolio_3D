@@ -16,6 +16,7 @@
     "@react-three/fiber": "^9.1.0",
     "@tailwindcss/vite": "^4.0.17",
     "boxicons": "^2.1.4",
+    "firebase": "^12.13.0",
     "framer-motion": "^12.7.3",
     "gsap": "^3.12.7",
     "leva": "^0.10.0",
