@@ -29,11 +29,12 @@ export const navLinks = [
   { id: 1, name: "Home", href: "/", icon: "bx-home" },
   { id: 2, name: "About", href: "/about", icon: "bx-user" },
   { id: 3, name: "Projects", href: "/projects", icon: "bxs-briefcase" },
-  { id: 4, name: "Client", href: "/client", icon: "bx-group" },
-  { id: 5, name: "Contac", href: "/contact", icon: "bx-envelope" },
-  { id: 6, name: "Certifications", href: "/certifications", icon: "bx-certification" },
-  { id: 7, name: "Skills", href: "/skills", icon: "bxs-hand" },
-  { id: 8, name: "Blog", href: "/blog", icon: "bx-news" },
+  { id: 4, name: "Certifications", href: "/certifications", icon: "bx-certification" },
+  { id: 5, name: "Skills", href: "/skills", icon: "bxs-hand" },
+  { id: 6, name: "Blog", href: "/blog", icon: "bx-news" },
+  { id: 7, name: "Client", href: "/client", icon: "bx-group" },
+  { id: 8, name: "Contac", href: "/contact", icon: "bx-envelope" },
+  { id: 9, name: "Achievements", href: "/achievements", icon: "bx-trophy" },
 ];
 
 export const blogPosts = [
