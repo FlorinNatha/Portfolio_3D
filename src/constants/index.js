@@ -32,7 +32,7 @@ export const navLinks = [
   { id: 4, name: "Certifications", href: "/certifications", icon: "bx-certification" },
   { id: 5, name: "Skills", href: "/skills", icon: "bxs-hand" },
   { id: 6, name: "Blog", href: "/blog", icon: "bx-news" },
-  { id: 7, name: "Client", href: "/client", icon: "bx-group" },
+  { id: 7, name: "Feedback", href: "/client", icon: "bx-group" },
   { id: 8, name: "Contac", href: "/contact", icon: "bx-envelope" },
   { id: 9, name: "Achievements", href: "/achievements", icon: "bx-trophy" },
 ];
