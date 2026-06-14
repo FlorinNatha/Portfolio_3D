@@ -276,6 +276,28 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: 'Smart Event Check-In & Management System',
+    desc: 'A complete solution for managing events, registrations, and secure QR-based check-ins. Features include Real-time Notifications, Smart Registration Invalidation, Ticket Management, and QR Code Check-In.',
+    subdesc:
+      'Built with Flutter (Material 3) for the mobile app and Node.js + Express for the backend API, utilizing MongoDB and JWT Authentication with Role-Based Access Control.',
+    href: '#',
+    texture: '/textures/project/project7.mp4',
+    logo: '/assets/project-logo4.png',
+    logoStyle: {
+      backgroundColor: '#0E1F38',
+      border: '0.2px solid #0E2D58',
+      boxShadow: '0px 0px 60px 0px #2F67B64D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Node.js',
+        path: '/assets/node-js.png',
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
