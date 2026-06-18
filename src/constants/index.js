@@ -213,10 +213,10 @@ export const myProjects = [
   },
 
   {
-    title: 'Furniture eCommerce Website',
-    desc: 'A modern and responsive online furniture store that allows users to explore, search, and purchase stylish furniture with ease. The site includes features like product listings, cart management, user accounts, and a smooth checkout experience.',
+    title: 'Modern Furniture E-Commerce Platform',
+    desc: 'A fast, visually engaging shopping experience featuring a sleek design with interactive hover states, blazing-fast client-side routing, and a complete e-commerce flow (Home, Shop, Cart, Checkout, Auth).',
     subdesc:
-      'Built with React for the frontend, Node.js and Express for the backend API, and fully typed with TypeScript to ensure reliability and maintainability across the application.',
+      'Built using React 19, Vite, React Router DOM, and Bootstrap 5. Emphasizes clean, scalable, and highly reusable component-based architecture.',
     href: 'https://github.com/FlorinNatha/FunitureWebsie-frontend',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo4.png',
@@ -234,18 +234,8 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: 'Node.js',
-        path: 'assets/node-js.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'My SQL',
-        path: '/assets/mysql.svg',
+        name: 'Bootstrap',
+        path: '/assets/Bootstrap.png',
       },
     ],
   },
