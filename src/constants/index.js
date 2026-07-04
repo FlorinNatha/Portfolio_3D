@@ -288,6 +288,63 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: 'Cloud-Native E-Commerce Microservices Platform',
+    desc: 'Jun 2026 – Jul 2026 | Designed and developed a production-style cloud-native e-commerce platform by transforming a monolithic full-stack application into a scalable microservices architecture. The backend was split into five independent Node.js microservices (Authentication, User, Product, Order, and Payment) connected through a centralized API Gateway. The entire application was containerized with Docker and orchestrated using Kubernetes (Minikube), with NGINX Ingress handling secure external access and path-based routing.',
+    subdesc:
+      'Implemented enterprise-grade observability by integrating Prometheus metrics into each microservice using prom-client and visualizing real-time application and infrastructure metrics through Grafana dashboards. This project demonstrates hands-on experience with containerization, Kubernetes orchestration, microservices, API Gateway design, monitoring, scalability, and cloud-native application deployment.',
+    href: 'https://github.com/FlorinNatha/microservices-k8s-ecommerce',
+    texture: '/textures/project/project8.mp4',
+    logo: '/assets/project-logo2.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Node.js',
+        path: '/assets/node-js.png',
+      },
+      {
+        id: 2,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 3,
+        name: 'MongoDB',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+      },
+      {
+        id: 4,
+        name: 'Docker',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+      },
+      {
+        id: 5,
+        name: 'Kubernetes',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg',
+      },
+      {
+        id: 6,
+        name: 'NGINX Ingress',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg',
+      },
+      {
+        id: 7,
+        name: 'Prometheus',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg',
+      },
+      {
+        id: 8,
+        name: 'Grafana',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg',
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
