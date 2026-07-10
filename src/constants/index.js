@@ -350,7 +350,7 @@ export const myProjects = [
     title: 'Nexus AI - Ultra-Low Latency Chatbot',
     desc: 'I recently built a custom AI Chatbot called Nexus AI, designed for ultra-low latency responses. 🚀',
     subdesc: 'The Tech Stack: 🔹 Backend/Logic: Python 🔹 Frontend: Streamlit (for a clean, out-of-the-box chat UI) 🔹 LLM Inference: Groq API (Llama-3.3-70b-versatile). By combining Streamlit\'s session state and Groq\'s insanely fast inference engine, I was able to create a bot that not only maintains conversational memory but also streams responses almost instantly. Building AI-powered web apps with Python has never been easier!',
-    href: '#',
+    href: 'https://github.com/FlorinNatha/chatbot1-groq',
     texture: '/textures/project/Project9/img01.jpeg',
     logo: '/assets/project-logo1.png',
     logoStyle: {
@@ -369,6 +369,249 @@ export const myProjects = [
         name: 'Python',
         path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
       }
+    ],
+  },
+  {
+    title: 'Live AWS EC2 System Monitor Dashboard',
+    desc: 'A full-stack DevOps tool that interacts directly with cloud hardware to stream live telemetry data. Deployed on an AWS Ubuntu EC2 instance, it bridges the gap between Software Development and IT Operations.',
+    subdesc: 'Features real-time memory tracking with Recharts, a live Cloud Task Manager polling background processes, Intelligent Health Scoring, and Hardware Interrogation. Built using React.js, Node.js, and Express.',
+    href: 'https://github.com/FlorinNatha/Live-System-Monitor-Dashboard-EC2',
+    texture: '/textures/project/Project10/img01.jpeg',
+    logo: '/assets/project-logo3.png',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight3.png',
+    images: [
+      '/textures/project/Project10/img01.jpeg',
+      '/textures/project/Project10/img02.jpeg',
+      '/textures/project/Project10/img03.jpeg',
+      '/textures/project/Project10/img04.jpeg',
+      '/textures/project/Project10/img05.jpeg'
+    ],
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Node.js',
+        path: '/assets/node-js.png',
+      },
+      {
+        id: 3,
+        name: 'AWS',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
+      },
+      {
+        id: 4,
+        name: 'Linux',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg',
+      },
+    ],
+  },
+  {
+    title: 'Automated CI/CD Pipeline for Node.js',
+    desc: 'A complete end-to-end DevOps pipeline that automatically deploys a Node.js REST API to an AWS EC2 instance using GitHub Actions. Replaces manual SSH deployments with pure code-to-cloud automation.',
+    subdesc: 'Features a self-hosted GitHub Actions runner on EC2, Nginx acting as a reverse proxy, and PM2 for robust process management. Every git push triggers an automatic deployment, ensuring seamless continuous integration and delivery.',
+    href: 'https://github.com/FlorinNatha/nodejs-rest-api-EC2',
+    texture: '/textures/project/Project11/img1.jpeg',
+    logo: '/assets/project-logo5.png',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    images: [
+      '/textures/project/Project11/img1.jpeg',
+      '/textures/project/Project11/img2.jpeg',
+      '/textures/project/Project11/img3.jpeg',
+      '/textures/project/Project11/img4.jpeg',
+      '/textures/project/Project11/img5.jpeg',
+      '/textures/project/Project11/img6.jpeg',
+      '/textures/project/Project11/img7.jpeg',
+      '/textures/project/Project11/img8.jpeg'
+    ],
+    tags: [
+      {
+        id: 1,
+        name: 'Node.js',
+        path: '/assets/node-js.png',
+      },
+      {
+        id: 2,
+        name: 'AWS',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
+      },
+      {
+        id: 3,
+        name: 'GitHub Actions',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+      },
+      {
+        id: 4,
+        name: 'Nginx',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg',
+      },
+    ],
+  },
+  {
+    title: 'CI/CD Pipeline with Docker & Jenkins',
+    desc: 'A comprehensive CI/CD pipeline demonstrating how to automate the build, test, and deployment process for a Node.js application. Uses Jenkins to orchestrate the workflow.',
+    subdesc: 'Features automated code checkout from GitHub, building and pushing Docker images to Docker Hub, secure credential management, and multi-platform support (Windows & Linux agents). Demonstrates best practices in DevOps automation.',
+    href: 'https://github.com/FlorinNatha/CI-CD-pipeline-Docker-Github-and-Jenkins',
+    texture: '/textures/project/Project12/img1.jpeg',
+    logo: '/assets/project-logo2.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    images: [
+      '/textures/project/Project12/img1.jpeg',
+      '/textures/project/Project12/img2.jpeg',
+      '/textures/project/Project12/img3.jpeg',
+      '/textures/project/Project12/img4.jpeg'
+    ],
+    tags: [
+      {
+        id: 1,
+        name: 'Jenkins',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg',
+      },
+      {
+        id: 2,
+        name: 'Docker',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+      },
+      {
+        id: 3,
+        name: 'GitHub',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+      },
+      {
+        id: 4,
+        name: 'Node.js',
+        path: '/assets/node-js.png',
+      },
+    ],
+  },
+  {
+    title: 'Laptop Price Predictor',
+    desc: 'An end-to-end machine learning solution designed to predict laptop prices based on specifications like RAM, storage, processor, and more.',
+    subdesc: 'The model is trained on real data using scikit-learn and serialized with pickle. It is deployed as an interactive web application using Flask and fully containerized with Docker for seamless distribution.',
+    href: 'https://github.com/FlorinNatha/Laptop-price-predictor',
+    texture: '/textures/project/Project13/img01.jpeg',
+    logo: '/assets/project-logo3.png',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight3.png',
+    images: [
+      '/textures/project/Project13/img01.jpeg',
+      '/textures/project/Project13/img02.jpeg'
+    ],
+    tags: [
+      {
+        id: 1,
+        name: 'Python',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+      },
+      {
+        id: 2,
+        name: 'Flask',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg',
+      },
+      {
+        id: 3,
+        name: 'Docker',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+      },
+      {
+        id: 4,
+        name: 'Jupyter',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg',
+      },
+    ],
+  },
+  {
+    title: 'Serverless AWS Backend',
+    desc: 'A secure, fully functional REST API built entirely on AWS without provisioning a single server. Designed to showcase modern Cloud Computing and DevOps practices.',
+    subdesc: 'Utilizes AWS Lambda (Node.js) for serverless compute and Amazon API Gateway for endpoint routing. Data is stored in MongoDB Atlas. The API is secured with API Keys and Usage Plans to enforce rate limiting.',
+    href: 'https://github.com/FlorinNatha/AWS-Lambda-API-Gateway---test-code',
+    texture: '/textures/project/Project14/img1.jpeg',
+    logo: '/assets/project-logo4.png',
+    logoStyle: {
+      backgroundColor: '#0E1F38',
+      border: '0.2px solid #0E2D58',
+      boxShadow: '0px 0px 60px 0px #2F67B64D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    images: [
+      '/textures/project/Project14/img1.jpeg',
+      '/textures/project/Project14/img2.jpeg',
+      '/textures/project/Project14/img3.jpeg',
+      '/textures/project/Project14/img4.jpeg',
+      '/textures/project/Project14/img5.jpeg',
+      '/textures/project/Project14/img6.jpeg',
+      '/textures/project/Project14/img7.jpeg',
+      '/textures/project/Project14/img8.jpeg'
+    ],
+    tags: [
+      {
+        id: 1,
+        name: 'AWS',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
+      },
+      {
+        id: 2,
+        name: 'Node.js',
+        path: '/assets/node-js.png',
+      },
+      {
+        id: 3,
+        name: 'MongoDB',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
+      },
+    ],
+  },
+  {
+    title: 'GesturePilot - Computer Vision Control',
+    desc: 'A real-time computer vision application that transforms natural hand gestures into intuitive OS-level desktop controls using just a standard webcam.',
+    subdesc: 'Built with Python, MediaPipe, OpenCV, and PyAutoGUI. Features index finger tracking for movement, pinch gestures for clicks, and distance tracking for scrolling. Includes a custom live PiP HUD Dashboard.',
+    href: 'https://github.com/FlorinNatha/-GesturePilot',
+    texture: '/textures/project/Project15.mp4',
+    logo: '/assets/project-logo1.png',
+    logoStyle: {
+      backgroundColor: '#2A1816',
+      border: '0.2px solid #36201D',
+      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Python',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+      },
+      {
+        id: 2,
+        name: 'OpenCV',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg',
+      },
+      {
+        id: 3,
+        name: 'NumPy',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg',
+      },
     ],
   },
 ];
