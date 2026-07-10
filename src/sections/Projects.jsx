@@ -12,6 +12,7 @@ const projectCount = myProjects.length;
 
 const Projects = () => {
     const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
+    const [fullScreenImage, setFullScreenImage] = useState(null);
 
   const currentProject = myProjects[selectedProjectIndex]; 
   
@@ -31,19 +32,33 @@ const Projects = () => {
 
         <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
             <div className="flex flex-col gap-5 relative sm:p-10 py-10 shadow-2xl shadow-black-200">
-                <div className="absolute top-0 right-0">
-                    <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl" />
+                <div className="absolute top-0 right-0 pointer-events-none">
+                    <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl opacity-30" />
                 </div>
 
-                <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg" style={currentProject.logoStyle}>
+                <div className="p-3 backdrop-filter backdrop-blur-3xl w-fit rounded-lg relative z-10" style={currentProject.logoStyle}>
                     <img className="w-10 h-10 shadow-sm" src={currentProject.logo} alt="logo" />
                 </div>
 
-                <div className="flex flex-col gap-5 text-white-600 my-5">
+                <div className="flex flex-col gap-5 text-white-600 my-5 relative z-10">
                     <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
                     <p className="animatedText">{currentProject.desc}</p>
                     <p className="animatedText">{currentProject.subdesc}</p>
                 </div>
+
+                {currentProject.images && (
+                    <div className="flex gap-3 my-2 relative z-10 overflow-x-auto w-full pb-2 custom-scrollbar">
+                        {currentProject.images.map((imgSrc, idx) => (
+                            <img 
+                                key={idx} 
+                                src={imgSrc} 
+                                alt={`screenshot ${idx + 1}`} 
+                                className="h-24 sm:h-32 object-contain rounded-lg border border-black-300 shadow-md bg-black-200 cursor-pointer hover:scale-105 transition-transform duration-300"
+                                onClick={() => setFullScreenImage(imgSrc)}
+                            />
+                        ))}
+                    </div>
+                )}
 
                 <div className="flex items-center justify-between flex-wrap gap-5">
                     <div className="flex items-center gap-3">
@@ -89,6 +104,20 @@ const Projects = () => {
         </div>
                 
         </div>
+
+        {fullScreenImage && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4" onClick={() => setFullScreenImage(null)}>
+                <div className="relative max-w-7xl max-h-[90vh]">
+                    <button 
+                        className="absolute -top-10 right-0 text-white text-3xl hover:text-gray-300"
+                        onClick={() => setFullScreenImage(null)}
+                    >
+                        &times;
+                    </button>
+                    <img src={fullScreenImage} alt="Fullscreen screenshot" className="max-w-full max-h-[90vh] object-contain rounded-xl shadow-2xl" />
+                </div>
+            </div>
+        )}
     </section>
   )
 }
