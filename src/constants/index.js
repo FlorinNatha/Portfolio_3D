@@ -614,6 +614,35 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: 'Smart Home System using ESP32 and IoT',
+    desc: 'A smart home system that enables users to remotely control electrical appliances and monitor real-time current consumption using the Blynk platform.',
+    subdesc: 'Features WiFi-enabled automation, remote ON/OFF control, and live current data display via a dashboard. Built with an ESP32 microcontroller, ACS712 current sensor, and a 4-channel relay module.',
+    href: '#',
+    texture: '/textures/project/Project16/video.mp4',
+    logo: '/assets/project-logo5.png',
+    logoStyle: {
+      backgroundColor: '#1C1A43',
+      border: '0.2px solid #252262',
+      boxShadow: '0px 0px 60px 0px #635BFF4D',
+    },
+    spotlight: '/assets/spotlight5.png',
+    images: [
+      '/textures/project/Project16/img01.jpeg'
+    ],
+    tags: [
+      {
+        id: 1,
+        name: 'Arduino',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg',
+      },
+      {
+        id: 2,
+        name: 'C++',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg',
+      },
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
