@@ -346,6 +346,31 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: 'Nexus AI - Ultra-Low Latency Chatbot',
+    desc: 'I recently built a custom AI Chatbot called Nexus AI, designed for ultra-low latency responses. 🚀',
+    subdesc: 'The Tech Stack: 🔹 Backend/Logic: Python 🔹 Frontend: Streamlit (for a clean, out-of-the-box chat UI) 🔹 LLM Inference: Groq API (Llama-3.3-70b-versatile). By combining Streamlit\'s session state and Groq\'s insanely fast inference engine, I was able to create a bot that not only maintains conversational memory but also streams responses almost instantly. Building AI-powered web apps with Python has never been easier!',
+    href: '#',
+    texture: '/textures/project/Project9/img01.jpeg',
+    logo: '/assets/project-logo1.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight1.png',
+    images: [
+      '/textures/project/Project9/img01.jpeg',
+      '/textures/project/Project9/img02.jpeg'
+    ],
+    tags: [
+      {
+        id: 1,
+        name: 'Python',
+        path: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+      }
+    ],
+  },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
