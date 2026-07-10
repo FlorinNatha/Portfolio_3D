@@ -41,7 +41,7 @@ const Projects = () => {
                 </div>
 
                 <div className="flex flex-col gap-5 text-white-600 my-5 relative z-10">
-                    <p className="text-white text-2xl font-semibold animatedText">{currentProject.title}</p>
+                    <p className="text-white text-2xl font-semibold animatedText">{selectedProjectIndex + 1}. {currentProject.title}</p>
                     <p className="animatedText">{currentProject.desc}</p>
                     <p className="animatedText">{currentProject.subdesc}</p>
                 </div>
